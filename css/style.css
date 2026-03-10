@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+nav{
+    padding: 20px 0px;
+}
+
+nav h1{
+    font-size: 40px;
+}
+
+.contaniar{
+    width: 80%;
+    margin: auto;
+}
+
+/* flex */
+
+.display-flex{
+    display: flex;
+}
+
+
+.align-items-center{
+    align-items: center;
+
+}
+
+.align-end
+{
+    align-items: flex-end;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+/* text style */
+.italic-font{
+    font-style: italic;
+}
+
+    
+/* Colors */
+
+.bg-black{
+    background-color: #333333;
+}
+
+.bg-gray{
+    background-color: #F5F5F5;
+}
+
+.text-gray{
+    color: #B4B4B5;
+}
+
+.text-orange{
+    color: #FF8B38;
+}
+
+.text-color{
+    color: white;
+}
+
+/* componants */
+
+.hr-small-orange{
+    margin: 20px auto;
+    width: 5%;
+    border: 1px solid #FF8B38;
+    
+}
+
+.big-text{
+    font-size: 80px;
+}
+
+.header{
+    margin-bottom: 60px;
+}
+
+.header h4{
+    font-size: 45px;
+    font-weight: 300;
+}
+
+
+
+
+
+.nav-list{
+    width: 30%;
+}
+
+.banner{
+    background-image: url(../images/buildings.png);
+    background-size: 100% 100%;
+
+}
+
+.overlay{
+    background-color: #0000006e;
+    height: 100%;
+    padding: 5% 0%;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+
+
+
+.banner-text{
+    width: 32%;
+}
+
+.banner-text h1{
+    font-size: 80px;
+}
+
+.dec{
+    font-size: 35px;
+    font-weight: 350;
+}
+
+.banner-text hr{
+    width: 14%;
+    border: 1px solid white;
+    margin: 30px 0px;
+}
+
+.banner-text button{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 40px;
+    margin-top: 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+}
+
+.form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    border-radius: 1%;
+    width: 30%;
+    overflow: hidden;
+}
+
+.form h3{
+    color: black;
+    background-color: #F5F5F5;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.form input{
+    border: none;
+    border-bottom: 1px solid #E2E2E2;
+    margin: 0px 50px;
+    padding: 15px;
+    font-size: 17px;
+    outline: none;
+}
+
+::placeholder {
+    color: #AFB0B2;
+    opacity: 1;
+}
+
+
+.form button{
+    margin-top: 30px;
+    padding: 20px 0px;
+    background-color: #FF8B38;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+
+
+
+.nav-span{
+    font-weight: 300;
+}
+
+.section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+
+
+
+.pricing-cart{
+    width: 30%;
+}
+
+.pricing-cart h5{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.pricing-cart hr{
+    border: 1px solid white;
+}
+
+.price{
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+
+.hr-div{
+    background-color: #FF8B38;
+    padding: 4px;
+    margin-top: 20px;
+}
+
+.hr-div p{
+    padding: 10px;
+}
+
+.pricing-cart li{
+    padding: 10px 0px;
+    border-top: 1px solid #E2E2E2;
+    background-color: white;
+}
+
+.coment{
+    width: 30%;
+}
+
+.message-bubble{
+    /* width: 30%; */
+    background-color: #F5F5F5;
+    padding: 20px 30px;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.message-bubble::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-bottom: -15px;
+    bottom: 0px;
+    left: 35px;
+    border-left: 15px solid transparent ;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #F5F5F5;
+}
+
+.person-icon img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+
+}
+
+.person-icon div{
+    margin-left: 20px;
+}
+
+.person-icon h5{
+    font-size: 20px;
+}
+
+.person-icon p{
+    font-size: 13px;
+}
